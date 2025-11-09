@@ -65,7 +65,7 @@ But once written, they’re often forgotten or unsearchable.
 |  React UI   | <----> |   FastAPI API  | <-->  |  Meilisearch DB  |
 | (Frontend)  |        | (Backend)      |       +------------------+
 +-------------+        |   |    |       |       +------------------+
-                       |   |    |       | <-->  | Google Vision API |
-                       |   |    |       | <-->  | Google Generative |
+                       |   |    |       | <-->  | Google Gemma3 4b  |
+                       |   |    |       | <-->  | Google Gemma3 4b  |
                        |   |    |       | <-->  | ElevenLabs API    |
                        +----------------+       +------------------+
